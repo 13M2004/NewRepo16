@@ -24,6 +24,9 @@ switch (calificacion)
     case int n when (n >= 60 && n <= 69):
         Console.WriteLine("No aprobatoria");
         break;
+    case int n when (n >= 45 && n <= 68):
+        Console.WriteLine("REPITE EL CURSO");
+        break;
     default:
         Console.WriteLine("Calificación no válida");
         break;
