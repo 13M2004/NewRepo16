@@ -12,8 +12,8 @@ int calificacion = Convert.ToInt32(Console.ReadLine());
 
 switch (calificacion)
 {
-    case int n when (n >= 90 && n <= 100):
-        Console.WriteLine("Sobresaliente");
+    case int n when (n >= 95 && n <= 100):
+        Console.WriteLine("Cerebrito mi hermano");
         break;
     case int n when (n >= 80 && n <= 89):
         Console.WriteLine("Notable");
